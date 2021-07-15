@@ -40,6 +40,11 @@
         background: rgb(225, 225, 225);
     }
     
+    .resume .resume_right {
+        background: #ffffff;
+        padding: 25px;
+    }
+    
     .resume .resume_left .resume_profile {
         width: 100%;
         height: 250px;
@@ -105,6 +110,7 @@
         margin-right: 15px;
         font-size: 16px;
         position: relative;
+        cursor: pointer;
     }
     
     .resume .icon i,
@@ -133,5 +139,5 @@
         top: 0;
         left: 0;
         height: 100%;
-        background: #1f1e1e;
+        background: #8495e6;
     }

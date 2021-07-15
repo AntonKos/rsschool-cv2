@@ -157,14 +157,15 @@
     .resume_right .resume_about .title p {
         line-height: 35px;
     }
-    
-    .resume_right .resume_item .bold {
+    /* .resume_right .resume_item .bold {
         background: rgb(225, 225, 225);
         padding: 5px;
-    }
+    } */
     
-    .resume_education .title {
+    .resume_item:not(:first-child) .title {
         display: flex;
+        background: rgb(225, 225, 225);
+        padding: 5px;
     }
     
     .resume .resume_right .icon {

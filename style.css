@@ -165,7 +165,7 @@
     .resume_item:not(:first-child) .title {
         display: flex;
         background: rgb(225, 225, 225);
-        padding: 5px;
+        padding: 2px;
     }
     
     .resume .resume_right .icon {
@@ -174,4 +174,8 @@
         font-size: 16px;
         position: relative;
         cursor: pointer;
+    }
+    
+    .resume_right p.bold {
+        padding-top: 8px;
     }

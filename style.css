@@ -173,7 +173,7 @@
     }
     
     .resume_right .resume_about .title p,
-    .resume_right .resume_about header {
+    .resume_right .resume_about header p {
         line-height: 35px;
     }
     /* .resume_right .resume_about header {

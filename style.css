@@ -62,7 +62,7 @@
         background: rgb(225, 225, 225);
     }
     
-    .resume aside .resume_profile {
+    .resume aside .resume_profile figure {
         width: 100%;
         height: 250px;
         display: flex;

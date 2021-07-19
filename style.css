@@ -80,7 +80,8 @@
         padding: 0 30px;
     }
     
-    .resume .title {
+    .resume .title,
+    .resume header {
         margin-bottom: 20px;
     }
     
@@ -141,14 +142,6 @@
     .resume .resume_left .resume_social ul li .icon {
         cursor: pointer;
     }
-    
-    .resume .icon i,
-    .resume .resume_right .resume_hobby ul li i {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
     /* .resume .resume_left .resume_skills ul li {} */
     
     .resume .resume_left .resume_skills ul li .skill_name {
@@ -171,9 +164,21 @@
         background: #4e4e4e;
     }
     
-    .resume_right .resume_about .title p {
+    .resume .icon i,
+    .resume .resume_right .resume_hobby ul li i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .resume_right .resume_about .title p,
+    .resume_right .resume_about header {
         line-height: 35px;
     }
+    /* .resume_right .resume_about header {
+        line-height: 35px;
+    } */
     
     .resume_item:not(:first-child) .title {
         display: flex;

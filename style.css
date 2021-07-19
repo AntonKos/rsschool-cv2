@@ -46,6 +46,17 @@
         box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
     }
     
+    a {
+        text-decoration: none;
+        color: rgb(66, 66, 66);
+    }
+    
+    a:hover,
+    a:focus {
+        color: rgb(236, 25, 25);
+        border-bottom: 2px solid;
+    }
+    
     .resume .resume_left {
         width: 280px;
         background: rgb(225, 225, 225);
